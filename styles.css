@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Merriweather', serif;
@@ -153,8 +154,90 @@ body {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
+.email__subscribe__container {
+    margin-top: 48px;
+    width: 100%;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.email__text {
+    font-weight: 800;
+    font-size: 25px;
+    color: #1d3557; 
+    
+}
+
+.email__form {
+    border: 1px solid #ee89a0;
+    border-radius: 4px;
+    color: #1d3557;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.quote__container {
+    position: relative;
+    margin-top: 64px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    border-radius: 13px;
+    
+}
+
+.quote__text__container {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    border-radius: 13px;
+    background-color: #0a4065;
+    opacity: 49%;
+    
+}
+
+.quote__text {
+    color: #fff;
+    z-index: 3;
+    margin: 0 16px;
+    text-align: center;
+    margin-top: 65px;
+}
 
 
+.footer__container {
+    margin: 0;
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #FF512F 100% 
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem 1rem 0 0;
+    
+}
+.footer__image__container {
+    width: 200px;
+    filter: brightness(0) invert(1);
+}
+.footer__logo {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer__list {
+    margin-top: -1rem;
+  color: #fff;
+}
 
 
 
@@ -212,6 +295,47 @@ body {
     z-index: -3;
     transform: skewY(-5deg);
 }
+
+.quote__text  {
+    font-size: 28px;
+}
+
+.email__input__container {
+    display: flex;
+    width: 100%;
+    justify-content: center
+    
+    
+}
+
+.email__text {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 900;  
+    display: flex;
+    justify-content: center;
+    width: 100%;  
+    margin-bottom: 20px;
+    }
+.email__form {
+    width: 20rem;
+}
+#email__button {
+    margin: 10px;
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+
 }
 
 
@@ -286,5 +410,42 @@ body {
             height: 260px;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
-}
 
+        .email__subscribe__container {
+            justify-content: center;
+            align-items: center;
+        }
+        .email__input__container {
+            display: flex;
+            align-items: center;
+        }
+
+        .email__text {
+            margin-top: 40px;
+            font-size: 2.7rem;
+            line-height: 1rem;
+        
+    .footer__container {
+            width: 100%;
+            height: 100%;
+            margin-top: 3rem;
+            display: flex; 
+            flex-direction: row;
+            justify-content: space-evenly;
+            height:200px;
+            
+    }
+
+    .quote__text  {
+        font-size: 35px;
+    }
+
+    .footer__logo {
+        width: 300px 201px;
+    }
+
+    .footer__list {
+        width: 165px 130px;
+    }
+}
+}
